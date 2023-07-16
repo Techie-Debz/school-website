@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(./school.jpg) no-repeat center center;
+    min-height: 30rem;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0005;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+img{
+    width: 120px;
+    height: 74px;
+    margin-left: 1.9rem;
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: gray;
+    font-weight: bolder;
+}
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: auto;
+  
+}
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#courses{
+display: flex;
+text-align: center;
+}
+#courses img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .wrapper, .nav, .nav ul, .nav ul li, .nav ul li a,
+    .img, .section, .section h1, .section, .btn-1, .features,
+    .features button, showcase h1, #courses, #courses img, .apply,
+    .footer {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+/* THE END */
